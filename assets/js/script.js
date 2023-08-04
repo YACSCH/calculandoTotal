@@ -8,6 +8,6 @@ let displayAmount = document.querySelector(".card-result-amount")
 
 function TotalCalculate() {
     displayColor.style.backgroundColor = color.value;
-    displayPrice.innerText = precio * cantidad.value
+    displayPrice.innerText = "$" + precio * cantidad.value
     displayAmount.innerText = cantidad.value
 }

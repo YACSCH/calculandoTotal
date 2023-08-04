@@ -68,7 +68,8 @@ h5 {
 
  }
 .card-result-circle{
-    border:1px solig black;
+    border:1px solid black;
+    background-color: white;
     border-radius: 50%;
     width: 30px;
     height: 30px;
