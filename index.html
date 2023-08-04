@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando Total</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="card-product">
+            <img class="card-product-img"  src="./assets/img/pc-lenovo.webp" alt="Parlante color negro samsung Sound Tower MX-T40 ">
+            <h5>Laptop ThinkPad L15</h5>
+            <input class="card-product-input" type="text" name="txtcantidad" id="txtcantidad" placeholder="Cantidad">
+            <input class="card-product-input" type="text" name="txtcolor" id="txtcolor" placeholder="Color">
+            <h4>Precio: <span class="precio">892000</span></h4>
+            <button class="card-product-btn" type="button" onclick="TotalCalculate()">Calcular Total</button>
+        </section>
+        <section class="card-result">
+            <p>Total: <span class="card-result-total">0</span></p>
+            <p>Cantidad: <span class="card-result-amount">0</span></p>
+            <p>Color: <span class="card-result-circle"></span></p>
+        </section>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
